@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #111;
+}
+.btn {
+  padding: 5px 12px;
+  margin: 0 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: lightslategrey;
+  font-size: 20px;
+  cursor: pointer;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
